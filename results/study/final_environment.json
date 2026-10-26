@@ -1,0 +1,25 @@
+{
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "dependencies": {
+    "pytest": "9.1.1",
+    "numpy": "2.5.2",
+    "matplotlib": "3.11.2",
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0"
+  },
+  "sqlite": "3.50.4",
+  "freeze_sha256": "07e40272507623d4149be4633a7cf42eee5ae291dd5bc2990ce0b5def1da5ff7",
+  "live_usage": {
+    "request_attempts": 2779,
+    "input_tokens": 214011,
+    "output_tokens": 5558,
+    "estimated_cost_usd": 0.0219569
+  },
+  "budget_ledger": {
+    "remaining": 221,
+    "ledger": "results\\study\\live_runtime_budget.json",
+    "limit": 3000
+  },
+  "reference_attempts": 960,
+  "tests": 119
+}

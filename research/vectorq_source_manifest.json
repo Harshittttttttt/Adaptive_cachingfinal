@@ -1,0 +1,149 @@
+{
+  "specification": "https://arxiv.org/html/2502.03771v1",
+  "specification_version": "arXiv:2502.03771v1 (2025-02-06), Algorithms 1 and 2",
+  "local_implementation": "vectorq-arxiv-2502.03771v1-algorithms1-2-grid-v1",
+  "official_repository": "https://github.com/vcache-project/vCache",
+  "official_master_inspected": "50694eebf0c870231030f73707cb6543d47f0411",
+  "findings": [
+    "Current official source implements later verified vCache, not original three-region algorithm.",
+    "The inspected pre-Bayesian snapshot has unimplemented posterior/core methods.",
+    "The VectorQ Core Logic commit implements logistic Bayesian policy, not original paper-v1 regions.",
+    "No upstream three-region algorithm test suite was executed; local paper-derived tests passed."
+  ],
+  "numerical_choices": {
+    "grid_points": 1001,
+    "decay": 10,
+    "normalization": "trapezoidal integral, matching Algorithm 2; density may exceed 1",
+    "negative_cosine": "clipped to zero to honor paper [0,1] domain",
+    "search": "Exact float64 NumPy cosine over normalized SQLite vectors; metadata loaded only for the selected neighbor; no ANN",
+    "label_equivalence": "exact YES/NO equality"
+  },
+  "verification": [
+    "Analytic one-update posterior checks for correct and incorrect observations",
+    "Grid convergence at 1001 vs 10001 points",
+    "Deterministic sampling and region transitions",
+    "Persistent namespace-isolated cache integration"
+  ],
+  "source_files": [
+    {
+      "local_path": "research\\heuristic\\vectorq\\config.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/vectorq/config.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "6c331a2a6c874dc16159af96f27925f51337695c74d382c5e927ee5c64a92508"
+    },
+    {
+      "local_path": "research\\heuristic\\vectorq\\vectorq_core\\core.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/vectorq/vectorq_core/core.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "b386fe0ea32a521f579e3cd882011352ad159e0eb6cdf293926089e9604218f8"
+    },
+    {
+      "local_path": "research\\heuristic\\vectorq\\vectorq_core\\bayesian_inference\\bayesian_inference.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/vectorq/vectorq_core/bayesian_inference/bayesian_inference.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "31034100f41652d467b7a89430efc26a982b636271cb4920d630b7e01dcfa3d5"
+    },
+    {
+      "local_path": "research\\heuristic\\vectorq\\vectorq_core\\bayesian_inference\\strategy.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/vectorq/vectorq_core/bayesian_inference/strategy.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "64da5005e1b6b26ea4df00bef52e9a2f108e93055687e32cd1cc44a81e55bce6"
+    },
+    {
+      "local_path": "research\\heuristic\\vectorq\\vectorq_core\\bayesian_inference\\__init__.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/vectorq/vectorq_core/bayesian_inference/__init__.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "bca23e8ec4f0bd99b0325720f51f92a0e88e3fc00b4c0ddf2c67d28bedde5b78"
+    },
+    {
+      "local_path": "research\\heuristic\\vectorq\\vectorq_core\\cache\\eviction_policy\\eviction_policy.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/vectorq/vectorq_core/cache/eviction_policy/eviction_policy.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "c58e0626a4ce29a9f1f71d4a73f8c92d663d0b005c8bca91da8e01058c737e07"
+    },
+    {
+      "local_path": "research\\heuristic\\vectorq\\vectorq_core\\cache\\eviction_policy\\system_monitor.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/vectorq/vectorq_core/cache/eviction_policy/system_monitor.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "ed89a4e6f6730c3cf87c29f2be0eed08c5cfe37af21bdbdd267fe0050853a8e7"
+    },
+    {
+      "local_path": "research\\heuristic\\vectorq\\vectorq_core\\cache\\eviction_policy\\__init__.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/vectorq/vectorq_core/cache/eviction_policy/__init__.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "c5203c7399cb3c4563bc9adf45679dd998a97aacfc456f9a43673173866a2a95"
+    },
+    {
+      "local_path": "research\\heuristic\\vectorq\\vectorq_core\\cache\\eviction_policy\\strategies\\lru.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/vectorq/vectorq_core/cache/eviction_policy/strategies/lru.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "d25cfb3b7aa34c10be332633597fc96acfde25acecb13eef20dcd8cca1b20647"
+    },
+    {
+      "local_path": "research\\heuristic\\vectorq\\vectorq_core\\cache\\eviction_policy\\strategies\\__init__.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/vectorq/vectorq_core/cache/eviction_policy/strategies/__init__.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "local_path": "research\\heuristic\\vectorq\\vectorq_core\\cache\\embedding_store\\embedding_metadata_storage\\embedding_metadata_obj.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/vectorq/vectorq_core/cache/embedding_store/embedding_metadata_storage/embedding_metadata_obj.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "570116e67798ad76ab6f113bb8f42901a6908de59b8d12e00819cce4f1ed6534"
+    },
+    {
+      "local_path": "research\\heuristic\\vectorq\\vectorq_core\\bayesian_inference\\strategies\\exponential.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/vectorq/vectorq_core/bayesian_inference/strategies/exponential.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "07a4e9889f25d4b6ca590c72a30161fe6e8f6da4c8d5242cd7a791c6011dcbf7"
+    },
+    {
+      "local_path": "research\\heuristic\\vectorq\\vectorq_core\\bayesian_inference\\strategies\\sigmoid.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/vectorq/vectorq_core/bayesian_inference/strategies/sigmoid.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "6710c5786a28463bdddf0d8ad45f23da43ad1c51cfe0dd65f5fe3c2faa27d656"
+    },
+    {
+      "local_path": "research\\heuristic\\vectorq\\vectorq_core\\bayesian_inference\\strategies\\__init__.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/vectorq/vectorq_core/bayesian_inference/strategies/__init__.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "ef1f0c28c2a385b45aab2aa96efe4a8890dfe765af1c109990855f3d89cfcd7f"
+    },
+    {
+      "local_path": "research\\heuristic\\tests\\unit\\EvictionPolicyStrategy\\test.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/2c99678e9ed3934a0ef0b07789acd34b67f77a79/tests/unit/EvictionPolicyStrategy/test.py",
+      "commit": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+      "sha256": "79e98da9ca10739c9de870cacdf09e09e3a1b709a6f5435aec4b4cd001ad8733"
+    },
+    {
+      "local_path": "research\\original\\pyproject.toml",
+      "source_url": "https://github.com/vcache-project/vCache/blob/fca83c4d6822f329aad6bfd619a855718fc020e9/pyproject.toml",
+      "commit": "fca83c4d6822f329aad6bfd619a855718fc020e9",
+      "sha256": "2f7138476c7506b91091decc145d73daa00533f496f38db5b919355073722470"
+    },
+    {
+      "local_path": "research\\original\\vectorq\\vectorq_core\\core.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/fca83c4d6822f329aad6bfd619a855718fc020e9/vectorq/vectorq_core/core.py",
+      "commit": "fca83c4d6822f329aad6bfd619a855718fc020e9",
+      "sha256": "1fb8450d2ff88ca4c8d948898158108df9d9641ef87f356014dd4b420ec88f0b"
+    },
+    {
+      "local_path": "research\\original\\vectorq\\vectorq_core\\vectorq_policy\\strategies\\bayesian.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/fca83c4d6822f329aad6bfd619a855718fc020e9/vectorq/vectorq_core/vectorq_policy/strategies/bayesian.py",
+      "commit": "fca83c4d6822f329aad6bfd619a855718fc020e9",
+      "sha256": "5066d552b60c2d36516b0dead1c1c1af70228fc028e53b228b47059844e272fe"
+    },
+    {
+      "local_path": "research\\original\\vectorq\\vectorq_core\\cache\\embedding_store\\embedding_metadata_storage\\embedding_metadata_obj.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/fca83c4d6822f329aad6bfd619a855718fc020e9/vectorq/vectorq_core/cache/embedding_store/embedding_metadata_storage/embedding_metadata_obj.py",
+      "commit": "fca83c4d6822f329aad6bfd619a855718fc020e9",
+      "sha256": "04a9d56d36800598ae447611e3c51a02f488f136749fc2b4b3b871bf7a94a735"
+    },
+    {
+      "local_path": "research\\original\\tests\\unit\\EmbeddingMetadataStrategy\\test.py",
+      "source_url": "https://github.com/vcache-project/vCache/blob/fca83c4d6822f329aad6bfd619a855718fc020e9/tests/unit/EmbeddingMetadataStrategy/test.py",
+      "commit": "fca83c4d6822f329aad6bfd619a855718fc020e9",
+      "sha256": "aa9d0c4723f5088d7f601420374cefef279c382d0598bb7152d61cdb34239241"
+    }
+  ]
+}

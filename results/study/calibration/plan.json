@@ -1,0 +1,58 @@
+{
+  "status": "exploratory post-hoc; original test already inspected; no new held-out claim",
+  "original_freeze_file_sha256": "84639ff9c33dc29bdd4c88c464760d5df5710c6adb7f85ee990b35de443628b4",
+  "original_freeze_payload_sha256": "07e40272507623d4149be4633a7cf42eee5ae291dd5bc2990ce0b5def1da5ff7",
+  "validation_run": "offline-P2-cold-fixed-0-95a788041311",
+  "validation_r3_events": 206,
+  "quantiles": {
+    "q10": 0.9676635929526995,
+    "q90": 1.0
+  },
+  "variants": [
+    [
+      "constant_0.92",
+      0.92,
+      0.92
+    ],
+    [
+      "constant_0.96",
+      0.96,
+      0.96
+    ],
+    [
+      "constant_0.98",
+      0.98,
+      0.98
+    ],
+    [
+      "constant_0.99",
+      0.99,
+      0.99
+    ],
+    [
+      "constant_0.995",
+      0.995,
+      0.995
+    ],
+    [
+      "constant_1.0",
+      1.0,
+      1.0
+    ],
+    [
+      "validation_q10_q90",
+      0.9676635929526995,
+      1.0
+    ]
+  ],
+  "seeds": [
+    17,
+    18,
+    19
+  ],
+  "states": [
+    "cold",
+    "warm"
+  ],
+  "definition": "Constant thresholds isolate score calibration; quantile range varies with global selectivity. All original posterior settings retained."
+}

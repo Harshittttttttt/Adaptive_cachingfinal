@@ -1,0 +1,170 @@
+[
+  {
+    "review_id": "3db158a629c4a717bd7dd3e68e798b141f93cc2f1819843ce5ed39b03ce7fe0c",
+    "review_text": "Don't buy, It's not working",
+    "predicate_id": "shipping",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "69654621189fceacfe7a349fd2ac4104dbdb61140a952fa99f0942722ac778dd",
+    "review_text": "Items missing crusty plate and power steam bowl not available in it",
+    "predicate_id": "defect",
+    "prompt_version": "v2",
+    "reference_label": "YES"
+  },
+  {
+    "review_id": "47de2c7bbd6bf2d20845189b583e1c539c0129f60a21a54a955b1c98acc953e1",
+    "review_text": "Product is good but not as per my aspectation",
+    "predicate_id": "sarcasm",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "5af0b29e38f90f773f920bffcb606559ecb8fe2f35a6df4b1aa65831dc56d72c",
+    "review_text": "Setting process is so defficult....not easy....",
+    "predicate_id": "shipping",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "ed6732f35d6fc0d5d4bf6372a5183273cbf4843ed941a2ed6f966fbd3a71d175",
+    "review_text": "value for money product....i purchased it 3 month back .......and what i could say is just great..... if you are living alone or are single then this iron could be of gr8 use for ironing your cloths instead of giving huge amount of extra money to the near by iron wale uncle...hv a choice for your cloths........",
+    "predicate_id": "sarcasm",
+    "prompt_version": "v2",
+    "reference_label": "YES"
+  },
+  {
+    "review_id": "6084657da2006c42470227d8bd2cc4d7d0975a60b06b9e05dfcac439fdc932b8",
+    "review_text": "Size was too small ....nd u cant return it as they dont allow u return option .over all waste of money",
+    "predicate_id": "defect",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "241d890193c7dc3bf2fe082537ff9492c4e882a9b214443fa5cb32b2e06ab55e",
+    "review_text": "Nice packaging, fast delivery , superb...gifted for mom, using since 2months no issues. Thq fk",
+    "predicate_id": "defect",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "6ab85c3314a10b38b0250201f9a876417e13c4bd79daf1b5974234c87f2017ad",
+    "review_text": "There is a problem in auto zoom.It takes a lot of time in stabilizing the focus.I tried a lot to return and sorder a higher version ..but Flipkart policy has changed and this is creating a problem for us.I request Flipkart to consider return also...not just replacement.. because we put a lot of money in products and if that comes out to be bad...then we are stuck.I'll make sure not to order anything  .Would prefer buying it after testing in the market .. paying a bit more ..Atleast 500...",
+    "predicate_id": "sarcasm",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "24382f850cd5efaaf98f25635635fa071883dc5f8f2585900973d2bbe67301bb",
+    "review_text": "Looks amazing. Thanku so much for lovely wallpaper ????????????????????????????????",
+    "predicate_id": "shipping",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "67eac33e1310b7c5c4a3b2e7f584599d552be3565d9abf6d69e16528ece17d27",
+    "review_text": "Good  speakers  and Good  bass and good  product by flipkart  awesome  product and prices by flipkart thank  again",
+    "predicate_id": "sarcasm",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "489ca4388a10eaaa4586c297f452c3afe964cd3f7850adc18e6dc35ff602729a",
+    "review_text": "Wasting money ???????????????????\u008f???\u008f???\u008f???\u008f???\u008f???\u008f",
+    "predicate_id": "sarcasm",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "1c8a38aa70a1d4e172a01e1c0bf62ec0e547558b0cd71f1d1bd1be37e122ff3d",
+    "review_text": "Cheap quality display Samsung brand never expected  this type of  Display  Brightness  fine in Indoor only outdoor  Waste please don't  Buy  this tab My humble Request",
+    "predicate_id": "shipping",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "69654621189fceacfe7a349fd2ac4104dbdb61140a952fa99f0942722ac778dd",
+    "review_text": "Items missing crusty plate and power steam bowl not available in it",
+    "predicate_id": "shipping",
+    "prompt_version": "v2",
+    "reference_label": "YES"
+  },
+  {
+    "review_id": "ecb652ac1c1964b209ed8e94dd7df03011b7a4cd4cc91ac7b26e6a4e7050e0fd",
+    "review_text": "The product I had ordered seeing was Auto kraft and I received a low quality brand of name Let's Slim ..Which is available @100 had recently purchased. .nd here in Flipcart I paid  more  and  moreover the its of another company .Disappointing!",
+    "predicate_id": "defect",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "2bb64149c8ff944c80a5597134a85574e5e5bd572fca546030061dc56482648e",
+    "review_text": "Woofer not working ,no bassThis is my 2nd f&d  speakers with same ProblemNo verify of products by Flipkart team waste of buying from FLIPKART APP",
+    "predicate_id": "defect",
+    "prompt_version": "v2",
+    "reference_label": "YES"
+  },
+  {
+    "review_id": "f663405d2dba0e2ced0275ec0b51b8f330b28597984a0619f2bd62ec2ad85107",
+    "review_text": "Cover quality should be improved otherwise superb",
+    "predicate_id": "sarcasm",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "c283f1418bf70e425eee1b58e10141005a75df8556f54033dc3b2b1a97e55dd6",
+    "review_text": "Product was delivered within 15 hours of order and it's very nice and awesome delivery by flipkart",
+    "predicate_id": "shipping",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "f2989fc7ca63341239f6949423565611c6c3322d276a36ecb19b3d9ded511714",
+    "review_text": "The product i got didn't have that staricon which shows it was genuine ????",
+    "predicate_id": "sarcasm",
+    "prompt_version": "v2",
+    "reference_label": "YES"
+  },
+  {
+    "review_id": "7d7b450e212d15695cf7b6b73ffe5d4072eff6e15f4f727608185b8660095593",
+    "review_text": "Within 4 months it\u009f??s motor has stopped working",
+    "predicate_id": "sarcasm",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "5af0b29e38f90f773f920bffcb606559ecb8fe2f35a6df4b1aa65831dc56d72c",
+    "review_text": "Setting process is so defficult....not easy....",
+    "predicate_id": "sarcasm",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "46149c0ec0f7ace0780327406a83181ef84170131843f6af955b7b9a302c5deb",
+    "review_text": "Within a month the board was damaged,",
+    "predicate_id": "shipping",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "48e26945e30263286d93e3e0a7bb04db5ea5b11902610838240b82c52c1f731d",
+    "review_text": "Not good quality....",
+    "predicate_id": "defect",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "ecb652ac1c1964b209ed8e94dd7df03011b7a4cd4cc91ac7b26e6a4e7050e0fd",
+    "review_text": "The product I had ordered seeing was Auto kraft and I received a low quality brand of name Let's Slim ..Which is available @100 had recently purchased. .nd here in Flipcart I paid  more  and  moreover the its of another company .Disappointing!",
+    "predicate_id": "shipping",
+    "prompt_version": "v2",
+    "reference_label": "NO"
+  },
+  {
+    "review_id": "e66adb62203f416c598175f15625de02de1a6cfa7d6fd7564e813ecd3f524216",
+    "review_text": "Very bad quality . Flipkart services is very late.",
+    "predicate_id": "shipping",
+    "prompt_version": "v2",
+    "reference_label": "YES"
+  }
+]

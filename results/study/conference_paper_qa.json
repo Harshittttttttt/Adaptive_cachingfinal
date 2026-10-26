@@ -1,0 +1,40 @@
+{
+  "docx_sha256": "46ef1d5a4d253d7e965203890b0eeab4052233cb7cf9abcaf8648fa64ba7cdae",
+  "rendered_pdf_sha256": "76d49f15fd1499fae21b6dd727b5ba0adafde412a600e8008528d714cf91bbc3",
+  "pages": 5,
+  "page_size_points": [
+    595.32,
+    841.92
+  ],
+  "canonical_renderer_attempted": true,
+  "canonical_renderer_limitation": "Strict OOXML namespaces not recognized by packaged renderer; bundled LibreOffice unavailable on Windows. Logs diagnosed before Word fallback.",
+  "renderer_used": "Microsoft Word native ExportAsFixedFormat then bundled PDFium 1.65x PNGs",
+  "every_page_visually_inspected": true,
+  "native_equation_checked": true,
+  "table_captions_above_tables": true,
+  "table_column_definitions_checked": true,
+  "roman_sections": [
+    "I. INTRODUCTION",
+    "II. BACKGROUND AND RELATED WORK",
+    "III. SELECTIVITY AWARE REUSE",
+    "IV. SYSTEM DESIGN",
+    "V. EXPERIMENTAL METHODOLOGY",
+    "VI. RESULTS",
+    "VII. LIMITATIONS",
+    "VIII. CONCLUSION AND FUTURE WORK"
+  ],
+  "subsection_letters_restart_per_section": true,
+  "reference_count": 29,
+  "references_bold_disabled": true,
+  "all_25_supplied_works_cited_in_body": true,
+  "template_styles_preserved_byte_identical": true,
+  "numbering_change": "Original definitions retained; dedicated Roman list plus per-section alphabetic instances appended. Explicit start overrides only for alphabetic instances.",
+  "report": {
+    "pages": 11,
+    "every_page_visually_inspected": true,
+    "scope_notice": true,
+    "sha256": "ffd7a9540babc27d924408a50ebc0f2f0fe7c27a3db4be585a244592b66033fb"
+  },
+  "authors_source": "User-supplied project PDF team member list",
+  "affiliation_scope": "Degree only; no institution or email invented"
+}

@@ -1,0 +1,229 @@
+[
+  {
+    "pdf_reference": 1,
+    "citation": "S.-J. Qiao, H.-L. Fan, N. Han, L. Du, Y.-H. Peng, R.-M. Tang, and X. Qin, “Learning database optimization techniques: The state-of-the-art and prospects,” Frontiers of Computer Science, vol. 19, no. 12, Art. no. 1912612, 2025, doi: 10.1007/s11704-025-41116-7.",
+    "doi": "10.1007/s11704-025-41116-7",
+    "supplied_citation": "S.-J. Qiao, H.-L. Fan, N. Han, L. Du, Y .-H. Peng, R.-M. Tang, and X. Qin, “Learning database optimization techniques: The state-of-the-art and prospects,” Frontiers of Computer Science, vol. 19, no. 12, Art. no. 1912612, 2025, doi: 10.1007/s11704-025-41116-7.",
+    "primary_source_url": "https://journal.hep.com.cn/fcs/EN/10.1007/s11704-025-41116-7",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 2,
+    "citation": "B. Milicevic and Z. Babovic, “A systematic review of deep learning applications in database query execution,” Journal of Big Data, vol. 11, Art. no. 173, 2024, doi: 10.1186/s40537-024-01025-1.",
+    "doi": "10.1186/s40537-024-01025-1",
+    "supplied_citation": "B. Milicevic and Z. Babovic, “A systematic review of deep learning applications in database query execution,” Journal of Big Data, vol. 11, Art. no. 173, 2024, doi: 10.1186/s40537-024-01025-1.",
+    "primary_source_url": "https://link.springer.com/article/10.1186/s40537-024-01025-1",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 3,
+    "citation": "G. Katsogiannis-Meimarakis and G. Koutrika, “A survey on deep learning approaches for text-to-SQL,” The VLDB Journal, vol. 32, pp. 905–936, 2023, doi: 10.1007/s00778-022-00776-8.",
+    "doi": "10.1007/s00778-022-00776-8",
+    "supplied_citation": "G. Katsogiannis-Meimarakis and G. Koutrika, “A survey on deep learning approaches for text-to-SQL,” The VLDB Journal, vol. 32, pp. 905–936, 2023, doi: 10.1007/s00778-022-00776-8.",
+    "primary_source_url": "https://link.springer.com/article/10.1007/s00778-022-00776-8",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 4,
+    "citation": "S. Bagui, M. Malagutti, R. Morelli, and M. Tamascelli, “Large language models in database management system optimization: A survey,” ACM Transactions on Intelligent Systems and Technology, vol. 17, no. 5, Art. no. 119, pp. 1–37, 2026, doi: 10.1145/3829078.",
+    "doi": "10.1145/3829078",
+    "supplied_citation": "S. Bagui, M. Malagutti, R. Morelli, and M. Tamascelli, “Large language models in database management system optimization: A survey,” ACM Transactions on Intelligent Systems and Technology, vol. 17, no. 5, Art. no. 119, pp. 1–37, 2026, doi: 10.1145/3829078.",
+    "primary_source_url": "https://doi.org/10.1145/3829078",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 5,
+    "citation": "W. Lu, J. Zhang, J. Fan, Z. Fu, Y. Chen, and X. Du, “Large language model for table processing: A survey,” Frontiers of Computer Science, vol. 19, no. 2, Art. no. 192350, 2025, doi: 10.1007/s11704-024-40763-6.",
+    "doi": "10.1007/s11704-024-40763-6",
+    "supplied_citation": "W. Lu, J. Zhang, J. Fan, Z. Fu, Y . Chen, and X. Du, “Large language model for table processing: A survey,” Frontiers of Computer Science, vol. 19, no. 2, Art. no. 192350, 2025, doi: 10.1007/s11704-024-40763-6.",
+    "primary_source_url": "https://journal.hep.com.cn/fcs/EN/10.1007/s11704-024-40763-6",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 6,
+    "citation": "D. Xu, W. Chen, W. Peng, C. Zhang, T. Xu, X. Zhao, X. Wu, Y. Zheng, Y. Wang, and E. Chen, “Large language models for generative information extraction: A survey,” Frontiers of Computer Science, vol. 18, Art. no. 186357, 2024, doi: 10.1007/s11704-024-40555-y.",
+    "doi": "10.1007/s11704-024-40555-y",
+    "supplied_citation": "D. Xu, W. Chen, W. Peng, C. Zhang, T. Xu, X. Zhao, X. Wu, Y . Zheng, Y . Wang, and E. Chen, “Large language models for generative information extraction: A survey,” Frontiers of Computer Science, vol. 18, Art. no. 186357, 2024, doi: 10.1007/s11704-024-40555-y.",
+    "primary_source_url": "https://link.springer.com/article/10.1007/s11704-024-40555-y",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 7,
+    "citation": "P. Kumar, “Large language models (LLMs): Survey, technical frameworks, and future challenges,” Artificial Intelligence Review, vol. 57, no. 9, Art. no. 260, 2024, doi: 10.1007/s10462-024-10888-y.",
+    "doi": "10.1007/s10462-024-10888-y",
+    "supplied_citation": "P. Kumar, “Large language models (LLMs): Survey, technical frameworks, and future challenges,” Artificial Intelligence Review, vol. 57, no. 9, Art. no. 260, 2024, doi: 10.1007/s10462-024-10888-y.",
+    "primary_source_url": "https://link.springer.com/article/10.1007/s10462-024-10888-y",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 8,
+    "citation": "P. Zhao, H. Zhang, Q. Yu, Z. Wang, Y. Geng, F. Fu, L. Yang, et al., “Retrieval-augmented generation for AI-generated content: A survey,” Data Science and Engineering, vol. 11, pp. 1–29, 2026, doi: 10.1007/s41019-025-00335-5.",
+    "doi": "10.1007/s41019-025-00335-5",
+    "supplied_citation": "P. Zhao, H. Zhang, Q. Yu, Z. Wang, Y . Geng, F. Fu, L. Yang, et al., “Retrieval-augmented generation for AI- generated content: A survey,” Data Science and Engineering, vol. 11, pp. 1–29, 2026, doi: 10.1007/s41019-025- 00335-5.",
+    "primary_source_url": "https://link.springer.com/article/10.1007/s41019-025-00335-5",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 9,
+    "citation": "A. Bajgoti, R. Gupta, and R. Dwivedi, \"ASKSQL: Enabling cost-effective natural language to SQL conversion for enhanced analytics and search,\" Mach. Learn. Appl., vol. 20, Art. no. 100641, Jun. 2025, doi: 10.1016/j.mlwa.2025.100641.",
+    "doi": "10.1016/j.mlwa.2025.100641",
+    "supplied_citation": "A. Bajgoti, R. Gupta, and R. Dwivedi, \"ASKSQL: Enabling cost-effective natural language to SQL conversion for enhanced analytics and search,\" Mach. Learn. Appl., vol. 20, Art. no. 100641, Jun. 2025, doi: 10.1016/j.mlwa.2025.100641.",
+    "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S2666827025000246",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 10,
+    "citation": "L. G. Schroeder, A. Desai, A. Cuadron Lafuente, K. Chu, S. Liu, M. Zhao, S. Krusche, A. Kemper, M. Zaharia, and J. E. Gonzalez, “vCache: Verified Semantic Prompt Caching,” in Proc. International Conference on Learning Representations (ICLR), 2026. [Online]. Available: https://proceedings.iclr.cc/paper_files/paper/2026/hash/9559cd2116de7a8f5672eac3fcd232cc-Abstract-Conference.html",
+    "doi": null,
+    "supplied_citation": "L. G. Schroeder, A. Desai, A. Cuadron Lafuente, K. Chu, S. Liu, M. Zhao, S. Krusche, A. Kemper, M. Zaharia, and J. E. Gonzalez, “vCache: Verified Semantic Prompt Caching,” in Proc. International Conference on Learning Representations (ICLR), 2026",
+    "primary_source_url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/9559cd2116de7a8f5672eac3fcd232cc-Abstract-Conference.html",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 11,
+    "citation": "N. Vasilenko, A. Demin, and V. Boorlakov, “Training-Free Query Optimization via LLM-Based Plan Similarity,” arXiv preprint arXiv:2506.05853v2, Jul. 2025, doi: 10.48550/arXiv.2506.05853",
+    "doi": "10.48550/arXiv.2506.05853",
+    "supplied_citation": "N. Vasilenko, A. Demin, and V . Boorlakov, “Training-Free Query Optimization via LLM-Based Plan Similarity,” arXiv preprint arXiv:2506.05853v2, Jul. 2025, doi: 10.48550/arXiv.2506.05853",
+    "primary_source_url": "https://arxiv.org/abs/2506.05853v2",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 12,
+    "citation": "U. Kumarasinghe, T. Liu, A. R. Mahmood, C. Liu, and W. G. Aref, “iPDB—Optimizing Semantic SQL Queries,” arXiv preprint arXiv:2601.16432v4, Apr. 2026, doi: 10.48550/arXiv.2601.16432",
+    "doi": "10.48550/arXiv.2601.16432",
+    "supplied_citation": "U. Kumarasinghe, T. Liu, A. R. Mahmood, C. Liu, and W. G. Aref, “iPDB—Optimizing Semantic SQL Queries,” arXiv preprint arXiv:2601.16432v4, Apr. 2026, doi: 10.48550/arXiv.2601.16432",
+    "primary_source_url": "https://arxiv.org/abs/2601.16432v4",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 13,
+    "citation": "L. Bindschaedler, “Semantic caching for OLAP via LLM-based query canonicalization (extended version),” arXiv preprint arXiv:2602.19811, Feb. 2026, doi: 10.48550/arXiv.2602.19811.",
+    "doi": "10.48550/arXiv.2602.19811",
+    "supplied_citation": "L. Bindschaedler, “Semantic caching for OLAP via LLM-based query canonicalization (extended version),” arXiv preprint arXiv:2602.19811, Feb. 2026, doi: 10.48550/arXiv.2602.19811.",
+    "primary_source_url": "https://arxiv.org/abs/2602.19811",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 14,
+    "citation": "T. Ren et al., “PURPLE: Making a large language model a better SQL writer,” in Proc. ICDE, pp. 15–28, 2024, doi: 10.1109/ICDE60146.2024.00009.",
+    "doi": "10.1109/ICDE60146.2024.00009",
+    "supplied_citation": "Y . Fan, Z. He, T. Ren, C. Huang, J. Dai, Y . Jing, K. Zhang, Y . Yang, and X. S. Wang, “PURPLE: Making a Large Language Model a Better SQL Writer,” in Proc. 2024 IEEE 40th International Conference on Data Engineering (ICDE), pp. 15–28, 2024, doi: 10.1109/ICDE60146.2024.00009.",
+    "correction": "Author list and order corrected against IEEE DOI registry and author arXiv record.",
+    "primary_source_url": "https://arxiv.org/abs/2403.20014",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 15,
+    "citation": "H. A. A. Abed Allah, “LLM-augmented query optimization: A hybrid framework for intelligent SQL performance tuning,” BOHR Int. J. Internet Things, Artif. Intell. Mach. Learn., vol. 5, no. 1, pp. 6–18, Jul. 2026, doi: 10.54646/bijiam.2026.34.",
+    "doi": "10.54646/bijiam.2026.34",
+    "supplied_citation": "H. A. A. Abed Allah, “LLM-augmented query optimization: A hybrid framework for intelligent SQL performance tuning,” BOHR Int. J. Internet Things, Artif. Intell. Mach. Learn., vol. 5, no. 1, pp. 6–18, Jul. 2026, doi: 10.54646/bijiam.2026.34.",
+    "primary_source_url": "https://journals.bohrpub.com/index.php/bijiam/article/view/1016",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 16,
+    "citation": "X. Liu, B. Atalar, X. Dai, J. Zuo, S. Wang, J. C. S. Lui, W. Chen, and C. Joe-Wong, “Semantic Caching for Low-Cost LLM Serving: From Offline Learning to Online Adaptation,” in Proc. IEEE INFOCOM 2026—IEEE Conference on Computer Communications, pp. 1–10, May 2026, doi: 10.1109/INFOCOM59046.2026.11571467.",
+    "doi": "10.1109/INFOCOM59046.2026.11571467",
+    "supplied_citation": "X. Liu, B. Atalar, X. Dai, J. Zuo, S. Wang, J. C. S. Lui, W. Chen, and C. Joe-Wong, “Semantic Caching for Low-Cost LLM Serving: From Offline Learning to Online Adaptation,” in Proc. IEEE INFOCOM 2026—IEEE Conference on Computer Communications, pp. 1–10, May 2026, doi: 10.1109/INFOCOM59046.2026.11571467.",
+    "primary_source_url": "https://www.microsoft.com/en-us/research/publication/semantic-caching-for-low-cost-llm-serving-from-offline-learning-to-online-adaptation/",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 17,
+    "citation": "C. Liu, M. Russo, M. Cafarella, L. Cao, P. B. Chen, Z. Chen, M. Franklin, T. Kraska, S. Madden, R. Shahout, and G. Vitagliano, \"Palimpzest: Optimizing AI-powered analytics with declarative query processing,\" in Proc. 15th Annual Conf. on Innovative Data Systems Research (CIDR), Amsterdam, Netherlands, 2025. [Online]. Available: https://www.vldb.org/cidrdb/papers/2025/p12-liu.pdf",
+    "doi": null,
+    "supplied_citation": "C. Liu, M. Russo, M. Cafarella, L. Cao, P . B. Chen, Z. Chen, M. Franklin, T. Kraska, S. Madden, R. Shahout, and G. Vitagliano, \"Palimpzest: Optimizing AI-powered analytics with declarative query processing,\" in Proc. 15th Annual Conf. on Innovative Data Systems Research (CIDR), Amsterdam, Netherlands, 2025.",
+    "primary_source_url": "https://www.vldb.org/cidrdb/papers/2025/p12-liu.pdf",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 18,
+    "citation": "M. Russo, C. Liu, S. Sudhir, G. Vitagliano, M. Cafarella, T. Kraska, and S. Madden, \"Abacus: A cost-based optimizer for semantic operator systems,\" Proc. VLDB Endowment, vol. 19, no. 5, pp. 1060–1073, 2026, doi: 10.14778/3796195.3796215.",
+    "doi": "10.14778/3796195.3796215",
+    "supplied_citation": "M. Russo, C. Liu, S. Sudhir, G. Vitagliano, M. Cafarella, T. Kraska, and S. Madden, \"Abacus: A cost-based optimizer for semantic operator systems,\" Proc. VLDB Endowment, vol. 19, no. 5, pp. 1060–1073, 2026, doi: 10.14778/3796195.3796215.",
+    "primary_source_url": "https://www.vldb.org/pvldb/vol19/p1060-russo.pdf",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 19,
+    "citation": "W. Kwon, Z. Li, S. Zhuang, Y. Sheng, L. Zheng, C. H. Yu, J. E. Gonzalez, H. Zhang, and I. Stoica, \"Efficient memory management for large language model serving with PagedAttention,\" in Proc. 29th ACM Symp. on Operating Systems Principles (SOSP), 2023, pp. 611–626, doi: 10.1145/3600006.3613165.",
+    "doi": "10.1145/3600006.3613165",
+    "supplied_citation": "W. Kwon, Z. Li, S. Zhuang, Y . Sheng, L. Zheng, C. H. Yu, J. E. Gonzalez, H. Zhang, and I. Stoica, \"Efficient memory management for large language model serving with PagedAttention,\" in Proc. 29th ACM Symp. on Operating Systems Principles (SOSP), 2023, pp. 611–626, doi: 10.1145/3600006.3613165.",
+    "primary_source_url": "https://arxiv.org/abs/2309.06180",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 20,
+    "citation": "A. Biswal, L. Patel, S. Jha, A. Kamsetty, S. Liu, J. E. Gonzalez, C. Guestrin, and M. Zaharia, \"Text2SQL is not enough: Unifying AI and databases with TAG,\" arXiv preprint arXiv:2408.14717, 2024. [Online]. Available: https://arxiv.org/abs/2408.14717",
+    "doi": null,
+    "supplied_citation": "A. Biswal, L. Patel, S. Jha, A. Kamsetty, S. Liu, J. E. Gonzalez, C. Guestrin, and M. Zaharia, \"Text2SQL is not enough: Unifying AI and databases with TAG,\" arXiv preprint arXiv:2408.14717, 2024.",
+    "primary_source_url": "https://arxiv.org/abs/2408.14717",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 21,
+    "citation": "S. Liu, J. Xu, W. Tjangnaka, S. J. Semnani, C. J. Yu, and M. S. Lam, \"SUQL: Conversational search over structured and unstructured data with large language models,\" in Findings of the Association for Computational Linguistics: NAACL 2024, Mexico City, Mexico, 2024, pp. 4535–4555, doi: 10.18653/v1/2024.findings-naacl.283.",
+    "doi": "10.18653/v1/2024.findings-naacl.283",
+    "supplied_citation": "S. Liu, J. Xu, W. Tjangnaka, S. J. Semnani, C. J. Yu, and M. S. Lam, \"SUQL: Conversational search over structured and unstructured data with large language models,\" in Findings of the Association for Computational Linguistics: NAACL 2024, Mexico City, Mexico, 2024, pp. 4535–4555, doi: 10.18653/v1/2024.findings-naacl.283.",
+    "primary_source_url": "https://aclanthology.org/2024.findings-naacl.283/",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 22,
+    "citation": "Y. Lin, M. Hulsebos, R. Ma, S. Shankar, S. Zeighami, A. G. Parameswaran, and E. Wu, \"Towards accurate and efficient document analytics with large language models,\" arXiv preprint arXiv:2405.04674, 2024. [Online]. Available: https://arxiv.org/abs/2405.04674",
+    "doi": null,
+    "supplied_citation": "Y . Lin, M. Hulsebos, R. Ma, S. Shankar, S. Zeighami, A. G. Parameswaran, and E. Wu, \"Towards accurate and efficient document analytics with large language models,\" arXiv preprint arXiv:2405.04674, 2024.",
+    "primary_source_url": "https://arxiv.org/abs/2405.04674",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 23,
+    "citation": "H. Jégou, M. Douze, and C. Schmid, \"Product quantization for nearest neighbor search,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 33, no. 1, pp. 117–128, 2011, doi: 10.1109/TPAMI.2010.57.",
+    "doi": "10.1109/TPAMI.2010.57",
+    "supplied_citation": "H. Jégou, M. Douze, and C. Schmid, \"Product quantization for nearest neighbor search,\" IEEE Trans. Pattern Anal. Mach. Intell., vol. 33, no. 1, pp. 117–128, 2011, doi: 10.1109/TPAMI.2010.57.",
+    "primary_source_url": "https://doi.org/10.1109/TPAMI.2010.57",
+    "checked_on": "2026-10-26",
+    "check_scope": "DOI registry metadata; established vector compression role. Author manuscript access was denied; no numerical result quoted."
+  },
+  {
+    "pdf_reference": 24,
+    "citation": "L. Patel, P. Kraft, C. Guestrin, and M. Zaharia, \"ACORN: Performant and predicate-agnostic search over vector embeddings and structured data,\" Proc. ACM Manag. Data, vol. 2, no. 3, pp. 1–27, 2024. [Online]. Available: https://arxiv.org/abs/2403.04871",
+    "doi": null,
+    "supplied_citation": "L. Patel, P . Kraft, C. Guestrin, and M. Zaharia, \"ACORN: Performant and predicate-agnostic search over vector embeddings and structured data,\" Proc. ACM Manag. Data, vol. 2, no. 3, pp. 1–27, 2024.",
+    "primary_source_url": "https://arxiv.org/abs/2403.04871",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  },
+  {
+    "pdf_reference": 25,
+    "citation": "J. J. Pan, J. Wang, and G. Li, “Vector database management techniques and systems,” in Companion of SIGMOD, pp. 597–604, 2024, doi: 10.1145/3626246.3654691.",
+    "doi": "10.1145/3626246.3654691",
+    "supplied_citation": "J. J. Pan, J. Wang, and G. Li, \"Vector database management techniques and systems,\" in Companion of the 2024 Int. Conf. on Management of Data (SIGMOD Companion), 2024, pp. 597–604, doi: 10.1145/3626246.3653394.",
+    "correction": "Removed duplicate replacement editorial text; corrected tutorial DOI against author PDF and Crossref.",
+    "primary_source_url": "https://www.cs.purdue.edu/homes/csjgwang/pubs/SIGMOD24_VecDB_Tutorial.pdf",
+    "checked_on": "2026-10-26",
+    "check_scope": "Primary publisher or author abstract/record; Crossref metadata where resolved. Not a claim of complete full-text review."
+  }
+]

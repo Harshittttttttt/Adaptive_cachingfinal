@@ -1,0 +1,13 @@
+query,shipping,defect,sarcasm,total
+broad_shipping,96,0,0,96
+broad_defect,0,96,0,96
+broad_sarcasm,0,0,96,96
+low_shipping,49,0,0,49
+low_defect,0,49,0,49
+rating3_sarcasm,0,0,16,16
+cheap_shipping,12,0,0,12
+expensive_defect,0,12,0,12
+empty_shipping,0,0,0,0
+low_defect_shipping,20,49,0,69
+repeat_low_shipping,49,0,0,49
+high_sarcasm_defect,0,6,31,37

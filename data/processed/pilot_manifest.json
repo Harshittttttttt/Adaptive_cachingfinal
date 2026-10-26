@@ -1,0 +1,19 @@
+{
+  "dataset_version": "587a0654382738baa46592c560f82e1e0429bbc2dd4a73ccd45d6fa9dfd6d575",
+  "row_count": 10,
+  "parent_dataset_version": "093a7fbcddbcc58fbd8ab7b2f2ee859c62499522508182cf1a3cc72790905300",
+  "selection": "first 10 ORDER BY review_id",
+  "review_ids": [
+    "0000302716933d967457b2b3fd01294ea9db06f75d52c60c6eccbf0a791d9a76",
+    "0000306b3078c163feb091a99471df1345fded42c53acc9e332e9987d72da7f5",
+    "000040b0d7b7467fa8a280f07d56c0eb7d6e6a1d874fc1fa9754d105d407ef64",
+    "0000dd6bcee8379849937ce7dcd574f96af8694ac559a948064ced12127ef770",
+    "00012d46fe4773e229c2b9293199e02eaa61d240237c908101d955fa206704eb",
+    "000132040fa36b759cd59f616eae9c28ddc96dbc1723022824900643c990744a",
+    "000135a4f5af05a627b95743ea8326d91efd1edd557602bc7a92b3d5b9dfb923",
+    "000135b3d29442c5a910cdf9cd90add8ba876ab128a9245fba2ab43d073a5c3b",
+    "00017895debfcb47d7c460fb47d3d9e3cfea334f00ce1febefcdc26be6dfbdbf",
+    "0001ac5f583008b665fb7beda601e36be5b1f3cf2b03cebb28d23b4c4d62e5ad"
+  ],
+  "purpose": "development pilot; not final validation or test"
+}

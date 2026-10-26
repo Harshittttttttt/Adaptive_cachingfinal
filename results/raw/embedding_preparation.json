@@ -1,0 +1,222 @@
+{
+  "mode": "offline_embedding_preparation",
+  "dataset_version": "587a0654382738baa46592c560f82e1e0429bbc2dd4a73ccd45d6fa9dfd6d575",
+  "embedding_model": "mistral:mistral-embed-2312:7c6535712768",
+  "prepared_inputs": 30,
+  "reused_this_invocation": 0,
+  "new_api_requests": 30,
+  "input_tokens": 2253,
+  "estimated_cost_usd": 0.0002253,
+  "requests": [
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.6817325000301935,
+      "status": "success",
+      "input_tokens": 94,
+      "estimated_cost_usd": 9.4e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.7091675000265241,
+      "status": "success",
+      "input_tokens": 61,
+      "estimated_cost_usd": 6.100000000000001e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 1.2892319000093266,
+      "status": "success",
+      "input_tokens": 67,
+      "estimated_cost_usd": 6.7e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.3954048999585211,
+      "status": "success",
+      "input_tokens": 93,
+      "estimated_cost_usd": 9.3e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.6716837999993004,
+      "status": "success",
+      "input_tokens": 65,
+      "estimated_cost_usd": 6.5e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.3987972000031732,
+      "status": "success",
+      "input_tokens": 56,
+      "estimated_cost_usd": 5.600000000000001e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.39289459999417886,
+      "status": "success",
+      "input_tokens": 57,
+      "estimated_cost_usd": 5.7000000000000005e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.769382200029213,
+      "status": "success",
+      "input_tokens": 74,
+      "estimated_cost_usd": 7.4e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.367527800030075,
+      "status": "success",
+      "input_tokens": 92,
+      "estimated_cost_usd": 9.200000000000002e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.7012469000183046,
+      "status": "success",
+      "input_tokens": 58,
+      "estimated_cost_usd": 5.8e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.49978319997899234,
+      "status": "success",
+      "input_tokens": 75,
+      "estimated_cost_usd": 7.5e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.9076729000080377,
+      "status": "success",
+      "input_tokens": 60,
+      "estimated_cost_usd": 6e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.7774284000042826,
+      "status": "success",
+      "input_tokens": 63,
+      "estimated_cost_usd": 6.300000000000001e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.6785007000435144,
+      "status": "success",
+      "input_tokens": 64,
+      "estimated_cost_usd": 6.4000000000000006e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.49575259996345267,
+      "status": "success",
+      "input_tokens": 59,
+      "estimated_cost_usd": 5.9e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.40282570000272244,
+      "status": "success",
+      "input_tokens": 67,
+      "estimated_cost_usd": 6.7e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.39890480000758544,
+      "status": "success",
+      "input_tokens": 66,
+      "estimated_cost_usd": 6.6e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.698879300034605,
+      "status": "success",
+      "input_tokens": 76,
+      "estimated_cost_usd": 7.600000000000001e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.800261500000488,
+      "status": "success",
+      "input_tokens": 118,
+      "estimated_cost_usd": 1.18e-05
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.38748440000927076,
+      "status": "success",
+      "input_tokens": 92,
+      "estimated_cost_usd": 9.200000000000002e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.7144240000052378,
+      "status": "success",
+      "input_tokens": 68,
+      "estimated_cost_usd": 6.800000000000001e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 1.2775845000287518,
+      "status": "success",
+      "input_tokens": 117,
+      "estimated_cost_usd": 1.1700000000000001e-05
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.7730118000181392,
+      "status": "success",
+      "input_tokens": 65,
+      "estimated_cost_usd": 6.5e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.39291399996727705,
+      "status": "success",
+      "input_tokens": 94,
+      "estimated_cost_usd": 9.4e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.4895357000059448,
+      "status": "success",
+      "input_tokens": 58,
+      "estimated_cost_usd": 5.8e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.7745684999972582,
+      "status": "success",
+      "input_tokens": 59,
+      "estimated_cost_usd": 5.9e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.4007426999742165,
+      "status": "success",
+      "input_tokens": 57,
+      "estimated_cost_usd": 5.7000000000000005e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.6009754000115208,
+      "status": "success",
+      "input_tokens": 93,
+      "estimated_cost_usd": 9.3e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.8883261999581009,
+      "status": "success",
+      "input_tokens": 69,
+      "estimated_cost_usd": 6.9e-06
+    },
+    {
+      "model_id": "mistral:mistral-embed-2312:7c6535712768",
+      "latency_seconds": 0.910807800013572,
+      "status": "success",
+      "input_tokens": 116,
+      "estimated_cost_usd": 1.16e-05
+    }
+  ]
+}

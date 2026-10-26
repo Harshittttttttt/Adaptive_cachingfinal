@@ -1,0 +1,12 @@
+{
+  "completed_runs": 42,
+  "measured_query_executions": 504,
+  "api_attempts": 0,
+  "original_freeze_unchanged": true,
+  "frozen_threshold_event_signatures_match_p2": true,
+  "r3_scores_above_original_ceiling": true,
+  "active_quantile_intervention": true,
+  "raw_aggregates_verified": true,
+  "original_freeze_file_sha256": "84639ff9c33dc29bdd4c88c464760d5df5710c6adb7f85ee990b35de443628b4",
+  "original_freeze_payload_sha256": "07e40272507623d4149be4633a7cf42eee5ae291dd5bc2990ce0b5def1da5ff7"
+}

@@ -1,0 +1,16 @@
+{
+  "mode": "offline_reference_generation",
+  "dataset_version": "093a7fbcddbcc58fbd8ab7b2f2ee859c62499522508182cf1a3cc72790905300",
+  "model_id": "mistral:ministral-3b-2512:035ffd37c1151e3f",
+  "rows": 10,
+  "predicates": [
+    "defect",
+    "sarcasm",
+    "shipping"
+  ],
+  "offset": 0,
+  "limit": 10,
+  "status_counts": {
+    "success": 30
+  }
+}

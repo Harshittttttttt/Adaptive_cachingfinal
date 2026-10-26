@@ -1,0 +1,50 @@
+[
+  {
+    "policy": "P2",
+    "cache_state": "cold",
+    "executed_repeats": 2,
+    "decisions_and_outputs_match": true
+  },
+  {
+    "policy": "P3",
+    "cache_state": "cold",
+    "executed_repeats": 2,
+    "decisions_and_outputs_match": true
+  },
+  {
+    "policy": "P4",
+    "cache_state": "cold",
+    "executed_repeats": 2,
+    "decisions_and_outputs_match": true
+  },
+  {
+    "policy": "P5",
+    "cache_state": "cold",
+    "executed_repeats": 2,
+    "decisions_and_outputs_match": true
+  },
+  {
+    "policy": "P2",
+    "cache_state": "warm",
+    "executed_repeats": 2,
+    "decisions_and_outputs_match": true
+  },
+  {
+    "policy": "P3",
+    "cache_state": "warm",
+    "executed_repeats": 2,
+    "decisions_and_outputs_match": true
+  },
+  {
+    "policy": "P4",
+    "cache_state": "warm",
+    "executed_repeats": 2,
+    "decisions_and_outputs_match": true
+  },
+  {
+    "policy": "P5",
+    "cache_state": "warm",
+    "executed_repeats": 2,
+    "decisions_and_outputs_match": true
+  }
+]

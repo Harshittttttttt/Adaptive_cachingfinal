@@ -1,0 +1,7 @@
+cache_state,metric,paired_seeds,mean,bootstrap_low,bootstrap_high,interpretation
+cold,call_difference_p3_minus_p2,3,0,0,0,"Conditional seed variability only; same corpus, not independent population evidence"
+cold,incorrect_hit_difference_p3_minus_p2,3,0,0,0,"Conditional seed variability only; same corpus, not independent population evidence"
+cold,row_agreement_difference_p3_minus_p2,3,0.0,0.0,0.0,"Conditional seed variability only; same corpus, not independent population evidence"
+warm,call_difference_p3_minus_p2,3,0,0,0,"Conditional seed variability only; same corpus, not independent population evidence"
+warm,incorrect_hit_difference_p3_minus_p2,3,0,0,0,"Conditional seed variability only; same corpus, not independent population evidence"
+warm,row_agreement_difference_p3_minus_p2,3,0.0,0.0,0.0,"Conditional seed variability only; same corpus, not independent population evidence"

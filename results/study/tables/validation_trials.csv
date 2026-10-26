@@ -1,0 +1,11 @@
+policy,settings,feasible,combined_calls,incorrect_direct_hits,direct_hit_denominator,incorrect_reuse_rate,mean_row_set_agreement
+P2,"{""uncertainty_gate"": 0.5}",False,469,13,321,0.040498442367601244,0.75
+P2,"{""uncertainty_gate"": 1.0}",False,392,26,398,0.06532663316582915,0.45833333333333337
+P3,"{""gamma"": 1, ""tau_max"": 0.92, ""tau_min"": 0.72, ""uncertainty_gate"": 0.5}",False,469,13,321,0.040498442367601244,0.75
+P3,"{""gamma"": 1, ""tau_max"": 0.96, ""tau_min"": 0.72, ""uncertainty_gate"": 0.5}",False,469,13,321,0.040498442367601244,0.75
+P3,"{""gamma"": 2, ""tau_max"": 0.96, ""tau_min"": 0.8, ""uncertainty_gate"": 0.5}",False,469,13,321,0.040498442367601244,0.75
+P3,"{""gamma"": 0.5, ""tau_max"": 0.98, ""tau_min"": 0.72, ""uncertainty_gate"": 0.5}",False,469,13,321,0.040498442367601244,0.75
+P1,"{""fixed_threshold"": 0.72}",False,3,202,739,0.2733423545331529,0.3333333333333333
+P1,"{""fixed_threshold"": 0.82}",False,3,202,739,0.2733423545331529,0.3333333333333333
+P1,"{""fixed_threshold"": 0.92}",False,3,202,739,0.2733423545331529,0.3333333333333333
+P1,"{""fixed_threshold"": 0.96}",False,18,174,740,0.23513513513513515,0.3333333333333333

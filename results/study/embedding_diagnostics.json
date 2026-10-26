@@ -1,0 +1,56 @@
+[
+  {
+    "split": "validation",
+    "predicate_id": "shipping",
+    "pairwise_min": 0.9292322322821477,
+    "pairwise_mean": 0.9660784537858236,
+    "pairwise_max": 0.9918522455537502,
+    "unique_vectors": 64,
+    "dimension": 1024
+  },
+  {
+    "split": "validation",
+    "predicate_id": "sarcasm",
+    "pairwise_min": 0.936628943292074,
+    "pairwise_mean": 0.9645083955015291,
+    "pairwise_max": 0.9892187602892959,
+    "unique_vectors": 64,
+    "dimension": 1024
+  },
+  {
+    "split": "validation",
+    "predicate_id": "defect",
+    "pairwise_min": 0.9314859470145396,
+    "pairwise_mean": 0.9651834769101562,
+    "pairwise_max": 0.9925930934144911,
+    "unique_vectors": 64,
+    "dimension": 1024
+  },
+  {
+    "split": "test",
+    "predicate_id": "shipping",
+    "pairwise_min": 0.9152497524870223,
+    "pairwise_mean": 0.964654166264339,
+    "pairwise_max": 0.9943165933621032,
+    "unique_vectors": 96,
+    "dimension": 1024
+  },
+  {
+    "split": "test",
+    "predicate_id": "sarcasm",
+    "pairwise_min": 0.9257391936383377,
+    "pairwise_mean": 0.9640917609049193,
+    "pairwise_max": 0.9886831713428571,
+    "unique_vectors": 96,
+    "dimension": 1024
+  },
+  {
+    "split": "test",
+    "predicate_id": "defect",
+    "pairwise_min": 0.9002146856108777,
+    "pairwise_mean": 0.962366744118114,
+    "pairwise_max": 0.992927817857525,
+    "unique_vectors": 96,
+    "dimension": 1024
+  }
+]

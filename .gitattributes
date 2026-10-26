@@ -1,0 +1,7 @@
+# Preserve source snapshots, manifests and scientific artifacts byte for byte.
+* -text
+*.pdf binary
+*.docx binary
+*.zip binary
+*.png binary
+*.sqlite3 binary

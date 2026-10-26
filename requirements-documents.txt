@@ -1,0 +1,2 @@
+# Optional: only for regenerating the supplied-template Word paper.
+lxml==6.1.1

@@ -1,0 +1,13 @@
+{
+  "split": "validation",
+  "seed": 2252,
+  "sample_size": 24,
+  "scorable": 22,
+  "ambiguous": 2,
+  "agreements": 20,
+  "disagreements": 2,
+  "agreement": 0.9090909090909091,
+  "reviewer": "assistant qualitative inspection, not independent human annotation",
+  "references_modified": false,
+  "notes": "Two apparent sarcasm false positives and two ambiguous task-boundary cases; small exploratory quality check, not a human accuracy estimate."
+}

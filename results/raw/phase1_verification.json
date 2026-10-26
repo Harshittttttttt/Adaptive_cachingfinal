@@ -1,0 +1,15 @@
+{
+  "dataset_version": "093a7fbcddbcc58fbd8ab7b2f2ee859c62499522508182cf1a3cc72790905300",
+  "row_count": 307953,
+  "repeat_import_was_idempotent": true,
+  "reconstruction_matches": true,
+  "ordered_records_sha256": "8fd1cb75e4db63689f5d44f9015f7dd23ac4eb7f9429964beb4d59f47bc2ee73",
+  "integrity_check": "ok",
+  "foreign_key_check": "ok",
+  "rating_at_most_two_count": 49923,
+  "empty_filter_count": 0,
+  "duration_seconds": 55.37081579997903,
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "sqlite": "3.50.4",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

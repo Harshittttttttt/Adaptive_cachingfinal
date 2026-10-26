@@ -1,0 +1,142 @@
+{
+  "dataset_version": "093a7fbcddbcc58fbd8ab7b2f2ee859c62499522508182cf1a3cc72790905300",
+  "mode": "sql_only_inspection",
+  "live_llm_calls": 0,
+  "embedding_calls": 0,
+  "queries": [
+    {
+      "query_id": "broad_shipping",
+      "group": "broad",
+      "total_rows": 307953,
+      "sql_candidate_rows": 307953,
+      "global_selectivity": 1.0,
+      "semantic_tasks": [
+        "shipping"
+      ],
+      "sql_seconds": 9.924163899966516
+    },
+    {
+      "query_id": "broad_defect",
+      "group": "broad",
+      "total_rows": 307953,
+      "sql_candidate_rows": 307953,
+      "global_selectivity": 1.0,
+      "semantic_tasks": [
+        "defect"
+      ],
+      "sql_seconds": 13.451978700002655
+    },
+    {
+      "query_id": "broad_sarcasm",
+      "group": "broad",
+      "total_rows": 307953,
+      "sql_candidate_rows": 307953,
+      "global_selectivity": 1.0,
+      "semantic_tasks": [
+        "sarcasm"
+      ],
+      "sql_seconds": 11.051480900030583
+    },
+    {
+      "query_id": "low_shipping",
+      "group": "medium",
+      "total_rows": 307953,
+      "sql_candidate_rows": 49923,
+      "global_selectivity": 0.1621124002688722,
+      "semantic_tasks": [
+        "shipping"
+      ],
+      "sql_seconds": 0.9695331999682821
+    },
+    {
+      "query_id": "low_defect",
+      "group": "medium",
+      "total_rows": 307953,
+      "sql_candidate_rows": 49923,
+      "global_selectivity": 0.1621124002688722,
+      "semantic_tasks": [
+        "defect"
+      ],
+      "sql_seconds": 0.3670826000161469
+    },
+    {
+      "query_id": "rating3_sarcasm",
+      "group": "medium",
+      "total_rows": 307953,
+      "sql_candidate_rows": 27977,
+      "global_selectivity": 0.09084827879579027,
+      "semantic_tasks": [
+        "sarcasm"
+      ],
+      "sql_seconds": 2.090948999975808
+    },
+    {
+      "query_id": "cheap_shipping",
+      "group": "narrow",
+      "total_rows": 307953,
+      "sql_candidate_rows": 81,
+      "global_selectivity": 0.00026302715024695327,
+      "semantic_tasks": [
+        "shipping"
+      ],
+      "sql_seconds": 0.006062600004952401
+    },
+    {
+      "query_id": "expensive_defect",
+      "group": "narrow",
+      "total_rows": 307953,
+      "sql_candidate_rows": 889,
+      "global_selectivity": 0.002886804155179524,
+      "semantic_tasks": [
+        "defect"
+      ],
+      "sql_seconds": 0.06527970003662631
+    },
+    {
+      "query_id": "empty_shipping",
+      "group": "empty",
+      "total_rows": 307953,
+      "sql_candidate_rows": 0,
+      "global_selectivity": 0.0,
+      "semantic_tasks": [
+        "shipping"
+      ],
+      "sql_seconds": 0.0005684999632649124
+    },
+    {
+      "query_id": "low_defect_shipping",
+      "group": "multi",
+      "total_rows": 307953,
+      "sql_candidate_rows": 49923,
+      "global_selectivity": 0.1621124002688722,
+      "semantic_tasks": [
+        "defect",
+        "shipping"
+      ],
+      "sql_seconds": 0.5136541000101715
+    },
+    {
+      "query_id": "repeat_low_shipping",
+      "group": "repeat",
+      "total_rows": 307953,
+      "sql_candidate_rows": 49923,
+      "global_selectivity": 0.1621124002688722,
+      "semantic_tasks": [
+        "shipping"
+      ],
+      "sql_seconds": 0.3563367999740876
+    },
+    {
+      "query_id": "high_sarcasm_defect",
+      "group": "multi",
+      "total_rows": 307953,
+      "sql_candidate_rows": 230049,
+      "global_selectivity": 0.7470263319402636,
+      "semantic_tasks": [
+        "sarcasm",
+        "defect"
+      ],
+      "sql_seconds": 3.363672199950088
+    }
+  ]
+}

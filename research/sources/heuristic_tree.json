@@ -1,0 +1,899 @@
+{
+  "sha": "2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+  "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/2c99678e9ed3934a0ef0b07789acd34b67f77a79",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "550447850482599581b4267655d7395aa91e97c6",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/550447850482599581b4267655d7395aa91e97c6"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d744c9ed154514700cafd77ca610bc13dd41727b",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/d744c9ed154514700cafd77ca610bc13dd41727b"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "203afc1c0682925ac4331431508876c3b0f97696",
+      "size": 1792,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/203afc1c0682925ac4331431508876c3b0f97696"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b887cc19ce0493a18515ee5c4acd1aef7e8cef6a",
+      "size": 164,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/b887cc19ce0493a18515ee5c4acd1aef7e8cef6a"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89c6223991f279d811b00435f4d3dedc1f9580cd",
+      "size": 313,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/89c6223991f279d811b00435f4d3dedc1f9580cd"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a725c5ac52d49eca5a7f388f03532705b9e24f8",
+      "size": 3849,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/7a725c5ac52d49eca5a7f388f03532705b9e24f8"
+    },
+    {
+      "path": "__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "benchmarks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e14c4e14d1d652953a85066a839402e9cd4de210",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/e14c4e14d1d652953a85066a839402e9cd4de210"
+    },
+    {
+      "path": "benchmarks/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "636e0d28e33a95c6669dff217b65e5d14c325618",
+      "size": 2126,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/636e0d28e33a95c6669dff217b65e5d14c325618"
+    },
+    {
+      "path": "benchmarks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b85b1873f466a933a751d5f76092549467ed4a05",
+      "size": 295,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/b85b1873f466a933a751d5f76092549467ed4a05"
+    },
+    {
+      "path": "benchmarks/_plotter_combined.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17543fdbd1498e0fed2d973ce9c1061bab5ac228",
+      "size": 55757,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/17543fdbd1498e0fed2d973ce9c1061bab5ac228"
+    },
+    {
+      "path": "benchmarks/_plotter_individual.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "863cb95387b75d57fe3fc88684d60491bd8bf8ae",
+      "size": 17110,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/863cb95387b75d57fe3fc88684d60491bd8bf8ae"
+    },
+    {
+      "path": "benchmarks/benchmark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01a5a84c72581da1904caf914b5bf86774cf0274",
+      "size": 30210,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/01a5a84c72581da1904caf914b5bf86774cf0274"
+    },
+    {
+      "path": "benchmarks/common",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0bcbd8d45ab26bb1f7dd4f18a0e1d2ed53929320",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/0bcbd8d45ab26bb1f7dd4f18a0e1d2ed53929320"
+    },
+    {
+      "path": "benchmarks/common/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d236d36af34c6eef885196706fe4bfd9f3e7ba53",
+      "size": 18996,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/d236d36af34c6eef885196706fe4bfd9f3e7ba53"
+    },
+    {
+      "path": "benchmarks/common/apy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1d03a638c0fd6735c49e489af80ef957e25a794",
+      "size": 11535,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/d1d03a638c0fd6735c49e489af80ef957e25a794"
+    },
+    {
+      "path": "benchmarks/common/comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "768ec00c8021b86e4e01ba76d2b9dc10bbdaf1e6",
+      "size": 769,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/768ec00c8021b86e4e01ba76d2b9dc10bbdaf1e6"
+    },
+    {
+      "path": "benchmarks/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "efa728175eef2a9c0f54b37256debfee1f27a703",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/efa728175eef2a9c0f54b37256debfee1f27a703"
+    },
+    {
+      "path": "benchmarks/data/large_scale",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b08104c445bbff9a2b189a680da92e0f5777799d",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/b08104c445bbff9a2b189a680da92e0f5777799d"
+    },
+    {
+      "path": "benchmarks/data/large_scale/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48a17f8b189a23b554ffe327ad05c79b1b9fae4b",
+      "size": 79,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/48a17f8b189a23b554ffe327ad05c79b1b9fae4b"
+    },
+    {
+      "path": "benchmarks/plotter_offline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5688338027cf3bdafaeb0f204f465fd08196972",
+      "size": 11038,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/f5688338027cf3bdafaeb0f204f465fd08196972"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a55eada30f8944aa4e4738e9467b9da54d7175c",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/5a55eada30f8944aa4e4738e9467b9da54d7175c"
+    },
+    {
+      "path": "docs/VectorQ_Logo_For_Bright_Background.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ac89ddbc89ec995ff43562dfaacbbf90581263b",
+      "size": 41615,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/8ac89ddbc89ec995ff43562dfaacbbf90581263b"
+    },
+    {
+      "path": "docs/VectorQ_Logo_For_Dark_Background.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71a71c19aac31f8589ccbdf40130d03aea0b2253",
+      "size": 43371,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/71a71c19aac31f8589ccbdf40130d03aea0b2253"
+    },
+    {
+      "path": "docs/vectorq_semantic_prompt_cache_architecture.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b93696914b8b4ff8a333800d6b2dbc71a4651234",
+      "size": 54786,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/b93696914b8b4ff8a333800d6b2dbc71a4651234"
+    },
+    {
+      "path": "docs/vectorq_semantic_prompt_cache_workflow.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5cf64ad31f4d9cc134e1937d4f8d6931e89ac8b",
+      "size": 68187,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/b5cf64ad31f4d9cc134e1937d4f8d6931e89ac8b"
+    },
+    {
+      "path": "poetry.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "402f8b76aac0236311fc86bf00fcd851c01020c8",
+      "size": 571537,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/402f8b76aac0236311fc86bf00fcd851c01020c8"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f580a6c85805271e8460a39fc1ac29b3d440335",
+      "size": 1544,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/1f580a6c85805271e8460a39fc1ac29b3d440335"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4d5783b0f8579cef21eeeae25d658dfa2de7ad7",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/f4d5783b0f8579cef21eeeae25d658dfa2de7ad7"
+    },
+    {
+      "path": "tests/ReadMe.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84047ae4d8e63d37585978378d15918b8a782304",
+      "size": 527,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/84047ae4d8e63d37585978378d15918b8a782304"
+    },
+    {
+      "path": "tests/integration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "005b5be708d33d07e63f6ac29f0c40b00544fa2c",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/005b5be708d33d07e63f6ac29f0c40b00544fa2c"
+    },
+    {
+      "path": "tests/integration/test_1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35488e826b75b65950d42b9fb58c54f9c9fa6d65",
+      "size": 1631,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/35488e826b75b65950d42b9fb58c54f9c9fa6d65"
+    },
+    {
+      "path": "tests/runner.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "67145689da23a78dc7348a2385bcf6213cbccbb5",
+      "size": 1274,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/67145689da23a78dc7348a2385bcf6213cbccbb5"
+    },
+    {
+      "path": "tests/unit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09f7d0b7cd6b4a4d46d021c3261b4f743eb091de",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/09f7d0b7cd6b4a4d46d021c3261b4f743eb091de"
+    },
+    {
+      "path": "tests/unit/Core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01b718d5a1f4da47e971878769167038cf809876",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/01b718d5a1f4da47e971878769167038cf809876"
+    },
+    {
+      "path": "tests/unit/Core/test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c4b614520361dc53251996de33c01e8d2cc4946",
+      "size": 2964,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/2c4b614520361dc53251996de33c01e8d2cc4946"
+    },
+    {
+      "path": "tests/unit/EmbeddingEngineStrategy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6165be32f57b8963e3713544362a2e925c876431",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/6165be32f57b8963e3713544362a2e925c876431"
+    },
+    {
+      "path": "tests/unit/EmbeddingEngineStrategy/test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31b31da9b808e847750f921405e8bb9372836bae",
+      "size": 4584,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/31b31da9b808e847750f921405e8bb9372836bae"
+    },
+    {
+      "path": "tests/unit/EmbeddingMetadataStrategy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "088e5d4fb3fd25e35cc0c4015248f0db255dd52b",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/088e5d4fb3fd25e35cc0c4015248f0db255dd52b"
+    },
+    {
+      "path": "tests/unit/EmbeddingMetadataStrategy/test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2335a64b6446e7298c3b59a65b3dafdc051761b",
+      "size": 1220,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/d2335a64b6446e7298c3b59a65b3dafdc051761b"
+    },
+    {
+      "path": "tests/unit/EvictionPolicyStrategy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "160268ad378363a92812fe8062bd168b4cf1b95a",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/160268ad378363a92812fe8062bd168b4cf1b95a"
+    },
+    {
+      "path": "tests/unit/EvictionPolicyStrategy/test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "086c13478b3fc2d680c0f32410876f45576b3a11",
+      "size": 175,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/086c13478b3fc2d680c0f32410876f45576b3a11"
+    },
+    {
+      "path": "tests/unit/InferenceEngineStrategy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df2960554d18395fbd71434842a6de4f24f42b1b",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/df2960554d18395fbd71434842a6de4f24f42b1b"
+    },
+    {
+      "path": "tests/unit/InferenceEngineStrategy/test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3c1dcede717ea7e56daab840ad1e9801ba863e1",
+      "size": 3364,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/b3c1dcede717ea7e56daab840ad1e9801ba863e1"
+    },
+    {
+      "path": "tests/unit/SimilarityEvalutatorStrategy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5514499f35f5331179b622b5b71719bcc491cfb6",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/5514499f35f5331179b622b5b71719bcc491cfb6"
+    },
+    {
+      "path": "tests/unit/SimilarityEvalutatorStrategy/test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dd324f22aaca371b9238bc08c63d1676b75b450",
+      "size": 180,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/8dd324f22aaca371b9238bc08c63d1676b75b450"
+    },
+    {
+      "path": "tests/unit/VectorDBStrategy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d716fc14fcfcca07d3ad6a9f35ac993211cf56aa",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/d716fc14fcfcca07d3ad6a9f35ac993211cf56aa"
+    },
+    {
+      "path": "tests/unit/VectorDBStrategy/test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d368c0c5da40f88fc2526ff644cdea2166bce78",
+      "size": 3391,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/4d368c0c5da40f88fc2526ff644cdea2166bce78"
+    },
+    {
+      "path": "vectorq",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "218b9e7876629462d8b2daa2675274dcd665338c",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/218b9e7876629462d8b2daa2675274dcd665338c"
+    },
+    {
+      "path": "vectorq/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd2a7a3e005993dcdd63d594ff27c1dfe966d608",
+      "size": 1919,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/dd2a7a3e005993dcdd63d594ff27c1dfe966d608"
+    },
+    {
+      "path": "vectorq/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e80b4b50e39d367f6a1787e6f2234c7325d5d775",
+      "size": 2481,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/e80b4b50e39d367f6a1787e6f2234c7325d5d775"
+    },
+    {
+      "path": "vectorq/inference_engine",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9fd22d8370ad37c66a80c787940301d56a933ef2",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/9fd22d8370ad37c66a80c787940301d56a933ef2"
+    },
+    {
+      "path": "vectorq/inference_engine/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a59131fa5cae8c6b9cb5b0a939d7780461bc235",
+      "size": 394,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/4a59131fa5cae8c6b9cb5b0a939d7780461bc235"
+    },
+    {
+      "path": "vectorq/inference_engine/inference_engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7ae18f4cb15903666b2da5ea8a49bd7cc13f29e",
+      "size": 766,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/a7ae18f4cb15903666b2da5ea8a49bd7cc13f29e"
+    },
+    {
+      "path": "vectorq/inference_engine/strategies",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f16e5e49bd62b58e64f83a883b884386581ac067",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/f16e5e49bd62b58e64f83a883b884386581ac067"
+    },
+    {
+      "path": "vectorq/inference_engine/strategies/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "vectorq/inference_engine/strategies/lang_chain.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ae2cc4321b2f6c9c4113d378207a426323744c2",
+      "size": 2348,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/0ae2cc4321b2f6c9c4113d378207a426323744c2"
+    },
+    {
+      "path": "vectorq/inference_engine/strategies/open_ai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "737656c286727c7e31b6cda00936687827b4221d",
+      "size": 1007,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/737656c286727c7e31b6cda00936687827b4221d"
+    },
+    {
+      "path": "vectorq/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24e8518ad867a046892f4c1a4ac132e5fe88ab73",
+      "size": 3811,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/24e8518ad867a046892f4c1a4ac132e5fe88ab73"
+    },
+    {
+      "path": "vectorq/vectorq_core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f94c006f167334655bd7958380a39564e4a22140",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/f94c006f167334655bd7958380a39564e4a22140"
+    },
+    {
+      "path": "vectorq/vectorq_core/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c5743a2b757e4a6494342f645395d91cf2b719f",
+      "size": 77,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/4c5743a2b757e4a6494342f645395d91cf2b719f"
+    },
+    {
+      "path": "vectorq/vectorq_core/bayesian_inference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0de3b07ada5c755c2ce2c8ecc1d72cf04046f6e6",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/0de3b07ada5c755c2ce2c8ecc1d72cf04046f6e6"
+    },
+    {
+      "path": "vectorq/vectorq_core/bayesian_inference/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41c5647ab48ad28bef359c698daad99d7b8d911d",
+      "size": 377,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/41c5647ab48ad28bef359c698daad99d7b8d911d"
+    },
+    {
+      "path": "vectorq/vectorq_core/bayesian_inference/bayesian_inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "934f2743d7ddb3c5151901e25afc06202b333547",
+      "size": 1599,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/934f2743d7ddb3c5151901e25afc06202b333547"
+    },
+    {
+      "path": "vectorq/vectorq_core/bayesian_inference/strategies",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d3a586aca7c89fa81fc68e2f7721384fe255c835",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/d3a586aca7c89fa81fc68e2f7721384fe255c835"
+    },
+    {
+      "path": "vectorq/vectorq_core/bayesian_inference/strategies/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bb8eff04c07f03d77cf64690050f4fecba1d8ba",
+      "size": 204,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/5bb8eff04c07f03d77cf64690050f4fecba1d8ba"
+    },
+    {
+      "path": "vectorq/vectorq_core/bayesian_inference/strategies/exponential.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c9476a3111b0cc8ae360a909458b97f71fc3207",
+      "size": 273,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/9c9476a3111b0cc8ae360a909458b97f71fc3207"
+    },
+    {
+      "path": "vectorq/vectorq_core/bayesian_inference/strategies/sigmoid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d89f9504068e4178ac39d2567d0bfd44f28c605",
+      "size": 269,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/3d89f9504068e4178ac39d2567d0bfd44f28c605"
+    },
+    {
+      "path": "vectorq/vectorq_core/bayesian_inference/strategy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "313babcfe5d0ae45c6537e42997d58bbc4ced1ee",
+      "size": 206,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/313babcfe5d0ae45c6537e42997d58bbc4ced1ee"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "867b12980d5f74788e41099540ee468f17672ac0",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/867b12980d5f74788e41099540ee468f17672ac0"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48bf7707f2ab10295accab5ea27a14cefe7d7049",
+      "size": 834,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/48bf7707f2ab10295accab5ea27a14cefe7d7049"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89ec163047dbe7d43e192f8409bb6f4b9a4d5246",
+      "size": 3723,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/89ec163047dbe7d43e192f8409bb6f4b9a4d5246"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_engine",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b11ac7a836627cd5162a3e1034c082129b94646c",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/b11ac7a836627cd5162a3e1034c082129b94646c"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_engine/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c31d6220553947ed7d307e5e5f356129c153e5f",
+      "size": 406,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/9c31d6220553947ed7d307e5e5f356129c153e5f"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_engine/embedding_engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "819d4a1d1260e1580bd5a1f38744f26819817723",
+      "size": 438,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/819d4a1d1260e1580bd5a1f38744f26819817723"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_engine/strategies",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc5175e8cc6ca4d5b7b11f9856ebda216f539c95",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/cc5175e8cc6ca4d5b7b11f9856ebda216f539c95"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_engine/strategies/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_engine/strategies/lang_chain.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e640e5160cec904c83c182a0c47af36b16c9de55",
+      "size": 1139,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/e640e5160cec904c83c182a0c47af36b16c9de55"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_engine/strategies/open_ai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae3b9a727dcc463ac223e24b90f1eeb911010a02",
+      "size": 1246,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/ae3b9a727dcc463ac223e24b90f1eeb911010a02"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23273ececf3915a0a3b8919c578d7eda1b639fc9",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/23273ececf3915a0a3b8919c578d7eda1b639fc9"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f671956708c90d48ac655dfe0e660cca8094a9a8",
+      "size": 276,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/f671956708c90d48ac655dfe0e660cca8094a9a8"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/embedding_metadata_storage",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f70bbc120560bf15479f791167f9b81b8cd222da",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/f70bbc120560bf15479f791167f9b81b8cd222da"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/embedding_metadata_storage/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13417ccff823e4819fc05d896190883c4a13b21f",
+      "size": 364,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/13417ccff823e4819fc05d896190883c4a13b21f"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/embedding_metadata_storage/embedding_metadata_obj.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a370d7a650cd8f66861eaabbc0062fa1f4ac02c7",
+      "size": 1901,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/a370d7a650cd8f66861eaabbc0062fa1f4ac02c7"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/embedding_metadata_storage/embedding_metadata_storage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d9521e2c2ca90b06acf63d9def02e910f542586",
+      "size": 1828,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/1d9521e2c2ca90b06acf63d9def02e910f542586"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/embedding_metadata_storage/strategies",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "355b6d84a4f8aa5731d51ca6fbfacc7cbca0c428",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/355b6d84a4f8aa5731d51ca6fbfacc7cbca0c428"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/embedding_metadata_storage/strategies/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/embedding_metadata_storage/strategies/in_memory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6bc6af5c5f55dfb7df809733eb02e61dc47e664",
+      "size": 1795,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/c6bc6af5c5f55dfb7df809733eb02e61dc47e664"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/embedding_metadata_storage/strategies/langchain.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea1891b988ffbdea3f859528177396f972a8e8a6",
+      "size": 1070,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/ea1891b988ffbdea3f859528177396f972a8e8a6"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/embedding_store.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c914463dfaf149cafb9820d693fc6d802f4bfb71",
+      "size": 2060,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/c914463dfaf149cafb9820d693fc6d802f4bfb71"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/vector_db",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "425d658c65c197fa1556bc60a44fc2828d565415",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/425d658c65c197fa1556bc60a44fc2828d565415"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/vector_db/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "077da6239c592b533686975aae6139c9173c2567",
+      "size": 566,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/077da6239c592b533686975aae6139c9173c2567"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/vector_db/strategies",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65f04539338ab689e4f4025a763361d6b34ca6b2",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/65f04539338ab689e4f4025a763361d6b34ca6b2"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/vector_db/strategies/chroma.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e64d94db7f42e54cbdda131242b167eaf1339b8e",
+      "size": 2660,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/e64d94db7f42e54cbdda131242b167eaf1339b8e"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/vector_db/strategies/faiss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3888c2ba3a26c072a152136a9653d5b48d6bd0a4",
+      "size": 3546,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/3888c2ba3a26c072a152136a9653d5b48d6bd0a4"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/vector_db/strategies/hnsw_lib.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00917f953418c919a8f87ccac0b324b1ef566d4e",
+      "size": 2963,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/00917f953418c919a8f87ccac0b324b1ef566d4e"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/embedding_store/vector_db/vector_db.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba81c55ab79a9cef53dc84ae80b62dcf544cd85",
+      "size": 2089,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/dba81c55ab79a9cef53dc84ae80b62dcf544cd85"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/eviction_policy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cbc90710950f6b1f80a43250f743f03098580da2",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/cbc90710950f6b1f80a43250f743f03098580da2"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/eviction_policy/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd41584e42c912f77aa94cc10ce68fc923ae8ba8",
+      "size": 236,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/fd41584e42c912f77aa94cc10ce68fc923ae8ba8"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/eviction_policy/eviction_policy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "187230b3dbb306b749b7f80c0b3438d6d47649ee",
+      "size": 308,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/187230b3dbb306b749b7f80c0b3438d6d47649ee"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/eviction_policy/strategies",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "791af057726a48629318656a209181d1eae09bf7",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/791af057726a48629318656a209181d1eae09bf7"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/eviction_policy/strategies/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/eviction_policy/strategies/lru.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08d8d6043f4a356c215a5cd2e890a4ddaa7e3b37",
+      "size": 243,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/08d8d6043f4a356c215a5cd2e890a4ddaa7e3b37"
+    },
+    {
+      "path": "vectorq/vectorq_core/cache/eviction_policy/system_monitor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05434b088c9af0ed0c0b9f27253997ef59f07bca",
+      "size": 249,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/05434b088c9af0ed0c0b9f27253997ef59f07bca"
+    },
+    {
+      "path": "vectorq/vectorq_core/core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "366ce4ae15aa9a6a2a2a34c24f9dcbdcd083e133",
+      "size": 3767,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/366ce4ae15aa9a6a2a2a34c24f9dcbdcd083e133"
+    },
+    {
+      "path": "vectorq/vectorq_core/similarity_evaluator",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e5bec66210fa93a2ec1874492cebc388d57d67c",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/6e5bec66210fa93a2ec1874492cebc388d57d67c"
+    },
+    {
+      "path": "vectorq/vectorq_core/similarity_evaluator/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d7e08d1dd8e45d9b24bdec5987a4f2825da99b8",
+      "size": 306,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/5d7e08d1dd8e45d9b24bdec5987a4f2825da99b8"
+    },
+    {
+      "path": "vectorq/vectorq_core/similarity_evaluator/similarity_evaluator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d13991262b9f43a503c98e46d2c2fc1c8cb7c6d",
+      "size": 324,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/6d13991262b9f43a503c98e46d2c2fc1c8cb7c6d"
+    },
+    {
+      "path": "vectorq/vectorq_core/similarity_evaluator/strategies",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c30c5f78049d914236cd9bcce60966f633b420cc",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/c30c5f78049d914236cd9bcce60966f633b420cc"
+    },
+    {
+      "path": "vectorq/vectorq_core/similarity_evaluator/strategies/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "vectorq/vectorq_core/similarity_evaluator/strategies/embedding_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a38ee1dd76470ff925ffd39d0a8cb1dea0b7ff9",
+      "size": 395,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/0a38ee1dd76470ff925ffd39d0a8cb1dea0b7ff9"
+    },
+    {
+      "path": "vectorq/vectorq_core/similarity_evaluator/strategies/llm_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1882e1bdef52a54ce31963e1e9fed07587d7fa90",
+      "size": 389,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/1882e1bdef52a54ce31963e1e9fed07587d7fa90"
+    },
+    {
+      "path": "vectorq/vectorq_core/similarity_evaluator/strategies/string_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb6c9a61d9274520ab21587b21f72426e558b410",
+      "size": 787,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/cb6c9a61d9274520ab21587b21f72426e558b410"
+    },
+    {
+      "path": "vectorq/vectorq_core/statistics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e5ebc84565cc23d2da7972e291e75138298ad52",
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/trees/2e5ebc84565cc23d2da7972e291e75138298ad52"
+    },
+    {
+      "path": "vectorq/vectorq_core/statistics/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e475e945ebddf1f9864d16766871c619ba22568",
+      "size": 92,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/2e475e945ebddf1f9864d16766871c619ba22568"
+    },
+    {
+      "path": "vectorq/vectorq_core/statistics/statistics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f63683e5e783de29ae5bdc55333c68f07fb33999",
+      "size": 503,
+      "url": "https://api.github.com/repos/vcache-project/vCache/git/blobs/f63683e5e783de29ae5bdc55333c68f07fb33999"
+    }
+  ],
+  "truncated": false
+}

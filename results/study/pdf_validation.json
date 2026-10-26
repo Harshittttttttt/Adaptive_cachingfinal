@@ -1,0 +1,9 @@
+{
+  "file": "research_report.pdf",
+  "sha256": "37a62fff746570dc2d4dae0357abd93e738d57b0e01c248a2fa3d3d74d94aa37",
+  "pages": 10,
+  "rendering": "Poppler 85 DPI",
+  "visual_review": "All pages reviewed in contact sheet; dense tables and final section pages inspected at full size",
+  "out_of_bounds_words": 0,
+  "tables_split_across_pages": false
+}

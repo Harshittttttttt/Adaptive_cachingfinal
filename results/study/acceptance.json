@@ -1,0 +1,64 @@
+{
+  "clean_setup": {
+    "passed": true,
+    "tests": 119,
+    "evidence": "results/study/clean_setup_tests.xml"
+  },
+  "data_and_sql": {
+    "passed": true,
+    "evidence": "results/raw/phase1_verification.json"
+  },
+  "reference_labels_reused": {
+    "passed": true,
+    "version": "v2",
+    "evidence": "data/processed/study"
+  },
+  "vectorq_conformance": {
+    "passed": true,
+    "scope": "local paper-v1 algorithm tests; no upstream-suite claim",
+    "evidence": "research/vectorq_source_manifest.json"
+  },
+  "controller_tests": {
+    "passed": true,
+    "evidence": "tests/test_controller.py"
+  },
+  "shared_policy_runner": {
+    "passed": true,
+    "evidence": "results/study/tables/main_runs.csv"
+  },
+  "edge_and_failure_tests": {
+    "passed": true,
+    "evidence": "results/study/clean_setup_tests.xml"
+  },
+  "raw_tables_graphs": {
+    "passed": true,
+    "evidence": "results/study"
+  },
+  "frozen_reproducibility": {
+    "passed": true,
+    "freeze_sha256": "07e40272507623d4149be4633a7cf42eee5ae291dd5bc2990ce0b5def1da5ff7"
+  },
+  "measured_report": {
+    "passed": true,
+    "evidence": "research_report.pdf"
+  },
+  "revision_tests": {
+    "passed": true,
+    "tests": 123,
+    "evidence": "results/study/revision_tests.xml"
+  },
+  "calibration_diagnostic": {
+    "passed": true,
+    "runs": 42,
+    "scope": "post-hoc replay; no additional API attempts or reviews",
+    "evidence": "results/study/calibration/verification.json"
+  },
+  "revised_paper_layout": {
+    "passed": true,
+    "evidence": "results/study/conference_paper_qa.json"
+  },
+  "revised_citations": {
+    "passed": true,
+    "evidence": "results/study/conference_citation_audit.json"
+  }
+}

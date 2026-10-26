@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "policies": 7,
+  "mode": "offline",
+  "new_api_calls": 0,
+  "interpreter": "fresh project-local virtual environment"
+}

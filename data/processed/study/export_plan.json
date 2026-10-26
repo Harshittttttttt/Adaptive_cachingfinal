@@ -1,0 +1,42 @@
+{
+  "selection_version": "stratified-text-disjoint-v1",
+  "cohorts": {
+    "validation": {
+      "row_count": 64,
+      "body_characters": 6288,
+      "strata": {
+        "cheap_low": 8,
+        "expensive_low": 8,
+        "shipping_cue": 8,
+        "defect_cue": 8,
+        "sarcasm_cue": 8,
+        "low_other": 8,
+        "medium_other": 8,
+        "high_other": 8
+      },
+      "dataset_version": "9afb1e9e1ebaaba6b0b19a57f00383f2cc643e2837020aff02c46c9318bff1d5"
+    },
+    "test": {
+      "row_count": 96,
+      "body_characters": 9588,
+      "strata": {
+        "cheap_low": 12,
+        "expensive_low": 12,
+        "shipping_cue": 12,
+        "defect_cue": 12,
+        "sarcasm_cue": 12,
+        "low_other": 12,
+        "medium_other": 12,
+        "high_other": 12
+      },
+      "dataset_version": "cb251020a32fd598d3c374224a6db57b43bd990c1a8c772e94a1ae0fc77d337c"
+    }
+  },
+  "text_disjoint": true,
+  "labels_per_review": 3,
+  "label_calls_without_retries": 480,
+  "label_attempt_cap": 960,
+  "embedding_inputs": 480,
+  "live_runtime_attempt_cap": 3000,
+  "price_note": "At configured $0.10/M input/output tokens; exact use is provider-reported after execution"
+}

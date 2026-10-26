@@ -1,0 +1,23 @@
+{
+  "paper_pages": 5,
+  "reference_count": 29,
+  "all_25_supplied_works_cited": true,
+  "main_sections": [
+    "I. INTRODUCTION",
+    "II. BACKGROUND AND RELATED WORK",
+    "III. SELECTIVITY AWARE REUSE",
+    "IV. SYSTEM DESIGN",
+    "V. EXPERIMENTAL METHODOLOGY",
+    "VI. RESULTS",
+    "VII. LIMITATIONS",
+    "VIII. CONCLUSION AND FUTURE WORK"
+  ],
+  "tests_passed": 123,
+  "posthoc_runs_verified": 42,
+  "additional_api_attempts": 0,
+  "original_freeze_unchanged": true,
+  "paper_sha256": "46ef1d5a4d253d7e965203890b0eeab4052233cb7cf9abcaf8648fa64ba7cdae",
+  "report_sha256": "ffd7a9540babc27d924408a50ebc0f2f0fe7c27a3db4be585a244592b66033fb",
+  "archive_files_verified": 416,
+  "archive_sha256": "1ec5d869ffbc2db6268a0c87d9379b1596378c22b0c748ee239c266e35e865e7"
+}

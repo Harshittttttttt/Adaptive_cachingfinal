@@ -1,0 +1,11 @@
+{
+  "phase": 1,
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "sqlite": "3.50.4",
+  "pytest": "9.1.1",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "runtime_dependencies": "Python standard library only",
+  "config": "config/default.json",
+  "vectorq_source_version": null,
+  "note": "No VectorQ implementation or semantic benchmark has been executed."
+}

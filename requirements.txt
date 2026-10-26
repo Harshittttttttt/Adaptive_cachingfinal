@@ -1,0 +1,6 @@
+# Application runtime uses the standard library; matplotlib generates figures.
+pytest==9.1.1
+matplotlib==3.11.2
+numpy==2.5.2
+reportlab==4.4.9
+pypdf==6.10.0

@@ -1,0 +1,16 @@
+{
+  "mode": "live",
+  "policy": "P0",
+  "cache_hits": 0,
+  "label_disagreements": [
+    {
+      "review_id": "4d1f6fa1509ee6703ef3f3f9718b01b1cdc4800d626a445705273753a7feabea",
+      "predicate_id": "defect",
+      "reference_label": "NO",
+      "live_label": "YES",
+      "query_id": "broad_defect"
+    }
+  ],
+  "row_set_agreement": 0.9166666666666666,
+  "interpretation": "No cache reuse was involved; saved references and fresh inference differ. Consistent with remote-model nondeterminism; investigate before claiming human accuracy."
+}

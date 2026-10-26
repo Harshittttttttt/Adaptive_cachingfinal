@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:8766/#calibration",
+  "cold_and_warm_values_checked": true,
+  "separate_diagnostic_section": true,
+  "three_csv_download_links": true,
+  "ten_figure_assets_available": true,
+  "original_replay_policy_sd_visible": true,
+  "preview": "results/study/calibration_dashboard_preview.png",
+  "api_requests_made": 0
+}

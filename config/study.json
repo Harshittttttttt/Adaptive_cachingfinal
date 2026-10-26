@@ -1,0 +1,243 @@
+{
+  "dataset": {
+    "path": "Dataset.csv",
+    "database": "data/processed/reviews.sqlite3",
+    "report": "data/processed/import_report.json",
+    "name": "local-product-reviews",
+    "source": "User-supplied Dataset.csv; upstream publisher and release unknown",
+    "encoding": "latin-1",
+    "columns": {
+      "product_name": "Product_name",
+      "price": "Price",
+      "rating": "Rate",
+      "review_text": "Summary",
+      "summary": "Review"
+    },
+    "rating_min": 1,
+    "rating_max": 5,
+    "numeric_prefixes": [
+      "\u009f??",
+      "\u20b9",
+      "$",
+      "\u00a3",
+      "\u20ac"
+    ],
+    "missing_review": "drop",
+    "deduplicate": true
+  },
+  "llm": {
+    "provider": "mistral",
+    "base_url": "https://api.mistral.ai/v1",
+    "model": "ministral-3b-2512",
+    "api_key_env": "MISTRAL_API_KEY",
+    "temperature": 0,
+    "seed": 17,
+    "max_tokens": 4,
+    "timeout_seconds": 60,
+    "max_attempts": 1,
+    "backoff_seconds": 1,
+    "retry_invalid_response": false,
+    "pricing": {
+      "input_per_million_usd": 0.1,
+      "output_per_million_usd": 0.1,
+      "checked_date": "2026-10-26",
+      "source": "https://docs.mistral.ai/models/ministral-3-3b-25-12"
+    },
+    "prompt_template": "task-in-user-v2"
+  },
+  "embedding": {
+    "provider": "mistral",
+    "model": "mistral-embed-2312",
+    "base_url": "https://api.mistral.ai/v1",
+    "api_key_env": "MISTRAL_API_KEY",
+    "timeout_seconds": 60,
+    "input_per_million_usd": 0.1
+  },
+  "policies": {
+    "tau_min": 0.72,
+    "tau_max": 0.92,
+    "gamma": 1.0,
+    "fixed_threshold": 0.82,
+    "uncertainty_gate": 1,
+    "grid_size": 1001,
+    "decay": 10,
+    "audit_min": 0.05,
+    "audit_max": 0.5,
+    "selectivity_kind": "global"
+  },
+  "workload": [
+    {
+      "query_id": "broad_shipping",
+      "group": "broad",
+      "sql_filters": [],
+      "semantic_tasks": [
+        "shipping"
+      ]
+    },
+    {
+      "query_id": "broad_defect",
+      "group": "broad",
+      "sql_filters": [],
+      "semantic_tasks": [
+        "defect"
+      ]
+    },
+    {
+      "query_id": "broad_sarcasm",
+      "group": "broad",
+      "sql_filters": [],
+      "semantic_tasks": [
+        "sarcasm"
+      ]
+    },
+    {
+      "query_id": "low_shipping",
+      "group": "medium",
+      "sql_filters": [
+        [
+          "rating",
+          "<=",
+          2
+        ]
+      ],
+      "semantic_tasks": [
+        "shipping"
+      ]
+    },
+    {
+      "query_id": "low_defect",
+      "group": "medium",
+      "sql_filters": [
+        [
+          "rating",
+          "<=",
+          2
+        ]
+      ],
+      "semantic_tasks": [
+        "defect"
+      ]
+    },
+    {
+      "query_id": "rating3_sarcasm",
+      "group": "medium",
+      "sql_filters": [
+        [
+          "rating",
+          "=",
+          3
+        ]
+      ],
+      "semantic_tasks": [
+        "sarcasm"
+      ]
+    },
+    {
+      "query_id": "cheap_shipping",
+      "group": "narrow",
+      "sql_filters": [
+        [
+          "price",
+          "<",
+          100
+        ],
+        [
+          "rating",
+          "<=",
+          2
+        ]
+      ],
+      "semantic_tasks": [
+        "shipping"
+      ]
+    },
+    {
+      "query_id": "expensive_defect",
+      "group": "narrow",
+      "sql_filters": [
+        [
+          "price",
+          ">=",
+          20000
+        ],
+        [
+          "rating",
+          "=",
+          1
+        ]
+      ],
+      "semantic_tasks": [
+        "defect"
+      ]
+    },
+    {
+      "query_id": "empty_shipping",
+      "group": "empty",
+      "sql_filters": [
+        [
+          "rating",
+          "<",
+          0
+        ]
+      ],
+      "semantic_tasks": [
+        "shipping"
+      ]
+    },
+    {
+      "query_id": "low_defect_shipping",
+      "group": "multi",
+      "sql_filters": [
+        [
+          "rating",
+          "<=",
+          2
+        ]
+      ],
+      "semantic_tasks": [
+        "defect",
+        "shipping"
+      ]
+    },
+    {
+      "query_id": "repeat_low_shipping",
+      "group": "repeat",
+      "sql_filters": [
+        [
+          "rating",
+          "<=",
+          2
+        ]
+      ],
+      "semantic_tasks": [
+        "shipping"
+      ]
+    },
+    {
+      "query_id": "high_sarcasm_defect",
+      "group": "multi",
+      "sql_filters": [
+        [
+          "rating",
+          ">=",
+          4
+        ]
+      ],
+      "semantic_tasks": [
+        "sarcasm",
+        "defect"
+      ]
+    }
+  ],
+  "logging": {
+    "directory": "results/raw"
+  },
+  "experiment": {
+    "pilot_rows": 10,
+    "pilot_database": "data/processed/pilot.sqlite3",
+    "pilot_manifest": "data/processed/pilot_manifest.json",
+    "seed": 17,
+    "max_live_request_attempts": 500
+  },
+  "semantic_prompt_version": "v2"
+}

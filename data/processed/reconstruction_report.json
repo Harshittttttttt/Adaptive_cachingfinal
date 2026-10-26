@@ -1,0 +1,64 @@
+{
+  "dataset_version": "093a7fbcddbcc58fbd8ab7b2f2ee859c62499522508182cf1a3cc72790905300",
+  "source_sha256": "e11df026e5b6cbe6107927d790f070a1c104434d688b4d5d7c0725c03c6656d6",
+  "source_dataset": "local-product-reviews",
+  "source_path": "C:\\Users\\unive\\Desktop\\pain\\Dataset.csv",
+  "source_description": "User-supplied Dataset.csv; upstream publisher and release unknown",
+  "cleaning_config": {
+    "columns": {
+      "product_name": "Product_name",
+      "price": "Price",
+      "rating": "Rate",
+      "review_text": "Summary",
+      "summary": "Review"
+    },
+    "rating_min": 1,
+    "rating_max": 5,
+    "numeric_prefixes": [
+      "\u009f??",
+      "\u20b9",
+      "$",
+      "\u00a3",
+      "\u20ac"
+    ],
+    "missing_review": "drop",
+    "deduplicate": true,
+    "pipeline_version": "reviews-cleaning-v1",
+    "encoding": "latin-1",
+    "source_dataset": "local-product-reviews"
+  },
+  "input_rows": 363261,
+  "output_rows": 307953,
+  "exact_duplicate_rows": 53786,
+  "canonical_duplicate_rows": 53286,
+  "missing_review_rows": 2022,
+  "dropped_missing_review_rows": 2022,
+  "missing_values": {
+    "category": 363261,
+    "review_text": 2022,
+    "summary": 22,
+    "product_name": 15,
+    "price": 16,
+    "rating": 16
+  },
+  "invalid_numeric_values": {
+    "price": 36343,
+    "rating": 6
+  },
+  "source_columns": [
+    "Product_name",
+    "Price",
+    "Rate",
+    "Review",
+    "Summary"
+  ],
+  "column_mapping": {
+    "product_name": "Product_name",
+    "price": "Price",
+    "rating": "Rate",
+    "review_text": "Summary",
+    "summary": "Review",
+    "category": null
+  },
+  "already_imported": false
+}
